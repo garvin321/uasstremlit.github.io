@@ -34,7 +34,7 @@ st.write("---")
 
 home, preprocessing, modeling, implementasi = st.tabs(["Home", "Preprocessing", "Modeling", "Implementasi"])
 
-voice=pd.read_csv('https://raw.githubusercontent.com/garvin321/Apertose/main/voice.csv')
+voice=pd.read_csv('voice.csv')
 voice.head()
 
 
