@@ -41,7 +41,7 @@ voice.head()
 with home:
     st.write("# Deskripsi Dataset ")
     st.write("#### Dataset yang digunakan adalah dataset pengenalan gender menggunakan suara, dapat dilihat pada tabel dibawah ini:")
-    df = pd.read_csv('https://raw.githubusercontent.com/garvin321/Apertose/main/voice.csv')
+    df = pd.read_csv('voice.csv')
     st.dataframe(df)
     st.write("###### Resource Dataset : https://www.kaggle.com/datasets/primaryobjects/voicegender")
     st.write(" Dataset ini berisikan 3000 data frekuensi suara manusia dengan range frekuensi 0hz-280hz yang di ambil dari perempuan maupun laki laki . ")
