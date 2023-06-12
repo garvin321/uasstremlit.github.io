@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import seaborn as sns
 import matplotlib.pyplot as plt
 from PIL import Image
 import altair as alt
@@ -20,10 +19,7 @@ from sklearn import preprocessing
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
-from sklearn import neighbors
-from sklearn import naive_bayes
-from sklearn import tree
-from sklearn import ensemble
+
 
 st.set_page_config(page_title='UAS PENAMBANGAN DATA')
 st.markdown("<h1 style='text-align: center;'>UAS PENAMBANGAN DATA</h1>", unsafe_allow_html=True)
